@@ -62,26 +62,27 @@ These search methods offer different trade-offs between solution optimality, tim
 The following output demonstrates the solution path and heuristic values obtained using a custom heuristic where:
 - g = 0
 - h: For each element, calculate the sum of the number of elements greater on the left and the number of elements smaller on the right.
+  
 '''
-- Current State: [4, 5, 1, 3, 2], Heuristic Value: 14
-- Current State: [2, 3, 1, 5, 4], Heuristic Value: 6
-- Current State: [2, 3, 1, 4, 5], Heuristic Value: 4
-- Current State: [2, 3, 5, 4, 1], Heuristic Value: 10
-- Current State: [2, 1, 4, 5, 3], Heuristic Value: 6
-- Current State: [2, 1, 3, 5, 4], Heuristic Value: 4
-- Current State: [2, 1, 3, 4, 5], Heuristic Value: 2
-- Current State: [2, 1, 5, 4, 3], Heuristic Value: 8
-- Current State: [2, 1, 5, 3, 4], Heuristic Value: 6
-- Current State: [2, 1, 4, 3, 5], Heuristic Value: 4
-- Current State: [2, 5, 3, 4, 1], Heuristic Value: 12
-- Current State: [1, 4, 3, 5, 2], Heuristic Value: 8
-- Current State: [1, 2, 5, 3, 4], Heuristic Value: 4
-- Current State: [1, 2, 4, 3, 5], Heuristic Value: 2
-- Current State: [1, 2, 4, 5, 3], Heuristic Value: 4
-- Current State: [1, 2, 3, 5, 4], Heuristic Value: 2
-- Time taken by A* Search: 0.001984 seconds
-- States visited by A* Search: 16
-- Sorted array found: [1, 2, 3, 4, 5], Heuristic Value: 0
+  - Current State: [4, 5, 1, 3, 2], Heuristic Value: 14
+  - Current State: [2, 3, 1, 5, 4], Heuristic Value: 6
+  - Current State: [2, 3, 1, 4, 5], Heuristic Value: 4
+  - Current State: [2, 3, 5, 4, 1], Heuristic Value: 10
+  - Current State: [2, 1, 4, 5, 3], Heuristic Value: 6
+  - Current State: [2, 1, 3, 5, 4], Heuristic Value: 4
+  - Current State: [2, 1, 3, 4, 5], Heuristic Value: 2
+  - Current State: [2, 1, 5, 4, 3], Heuristic Value: 8
+  - Current State: [2, 1, 5, 3, 4], Heuristic Value: 6
+  - Current State: [2, 1, 4, 3, 5], Heuristic Value: 4
+  - Current State: [2, 5, 3, 4, 1], Heuristic Value: 12
+  - Current State: [1, 4, 3, 5, 2], Heuristic Value: 8
+  - Current State: [1, 2, 5, 3, 4], Heuristic Value: 4
+  - Current State: [1, 2, 4, 3, 5], Heuristic Value: 2
+  - Current State: [1, 2, 4, 5, 3], Heuristic Value: 4
+  - Current State: [1, 2, 3, 5, 4], Heuristic Value: 2
+  - Time taken by A* Search: 0.001984 seconds
+  - States visited by A* Search: 16
+  - Sorted array found: [1, 2, 3, 4, 5], Heuristic Value: 0
 '''
 
 ## License
