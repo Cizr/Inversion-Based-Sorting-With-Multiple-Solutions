@@ -83,7 +83,6 @@ The following output demonstrates the solution path and heuristic values obtaine
 - Time taken by A* Search: 0.001984 seconds
 - States visited by A* Search: 16
 - Sorted array found: [1, 2, 3, 4, 5], Heuristic Value: 0
-'''
 
 
 ## License
